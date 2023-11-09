@@ -1,0 +1,264 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+    margin: 0px;
+}
+
+/* header starts */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #3b5998;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 18px;
+}
+
+.facebook-logo {
+    padding-top: 15px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+}
+
+.head-font {
+    color: white;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+}
+
+.forgotten {
+    text-decoration: none;
+    color: #6379aa;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+.login-btn {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    background-color: #3b5998;
+    color: white;
+    border-color: #254281;
+    height: 20px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: green;
+}
+
+/* header ends */
+
+/* section starts */
+
+section {
+    background: linear-gradient(white, #D3D8E8);
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.right {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.comment {
+    color: #243967;
+    position: absolute;
+    left: 139px;
+    top: 40px;
+}
+
+.img {
+    position: absolute;
+    top: 135px;
+    width: 750px;
+
+}
+
+.h {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.account {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.p {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.input-name {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 18px;
+    width: 210px;
+    height: 35px;
+    border-radius: 4px;
+    border: groove;
+    border-color: #dbd9d9;
+    margin-top: 30px;
+}
+
+.input-surname {
+
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 210px;
+    height: 35px;
+    border-radius: 4px;
+    border: groove;
+    border-color: #dbd9d9;
+
+}
+
+.input-email {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 18px;
+    width: 444px;
+    height: 35px;
+    border-radius: 4px;
+    border: groove;
+    border-color: #dbd9d9;
+    margin-top: 10px;
+}
+
+.input-pass {
+
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 18px;
+    width: 444px;
+    height: 35px;
+    border-radius: 4px;
+    border: groove;
+    border-color: #dbd9d9;
+    margin-top: 10px;
+    margin-bottom: 26px;
+
+}
+
+.lable {
+    color: rgb(184, 175, 175);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+
+}
+
+.option {
+    height: 30px;
+    width: 75px;
+    border-color: #dbd9d9;
+    margin-bottom: 8px;
+}
+
+.gender {
+
+    color: rgb(184, 175, 175);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+
+
+}
+
+.Terms {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: smaller;
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+
+
+}
+
+.radio-lab {
+
+    font-size: 18px;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 171px;
+    height: 36px;
+    background: #10873b;
+    border: 2px solid black;
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background ease-out 0.6s
+}
+
+.btn:hover {
+    background-color: #3e73e6;
+}
+
+/* secttion ends */
+
+
+/* footer starts */
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.copy {
+    color: rgb(105, 105, 105);
+
+
+}
+
+.footer-left {
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer-right {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.a1 {
+    padding-right: 10px;
+}
+
+
+.footer-option {
+    width: 20px;
+    height: 10px;
+    border: none;
+}
+
+/* footer ends */
